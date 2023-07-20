@@ -1,25 +1,28 @@
 <!--DOCTYPE html-->
 <html>
-    <head>
-        <!-- This title is the broswer tab title-->
-        <Title> Typing game</Title>
-        <link rel = "stylesheet" href = "style.css">
-    </head>
-    <body>
-        <!-- Shows it on website itself-->
-        <h1> Typing game!</h1>
-        <p class = "description"> Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
-        <p id="quote"> </p> <!-- This will display our quote, need to put before "<" so it identifies as id -->
-        <p id="message"> </p> <!-- This will display any status messages -->
-        <div>
-            <!-- Different events have different formatings for ending tags -->
-            <input style= "position: relative; top: 240px; left: 450px; border-radius: 25px;
-            padding: 20px; 
-            width: 400px;
-            border: none;
-            text-align: center;" class = "random" type = "text" aria-label="current word" id = 'typed-value' /> <!-- the textbox for typing -->
-            <button style= "position: relative; opacity:0; top: 245px; left: 450px" class = "button" id = 'start'> Start </button>
-        </div>
-        <script src="script.js"></script>
-    </body>
+   <head>
+       <!-- This title is the broswer tab title-->
+       <Title> Typing game</Title>
+       <link rel = "stylesheet" href = "style.css">
+   </head>
+   <body>
+       <!-- Shows it on website itself-->
+       <h1> Typing game!</h1>
+       <p class = "description"> Practice your typing skills with a quote from Sherlock Holmes. Click **start** to begin!</p>
+       <p id="quote"> </p> <!-- This will display our quote, need to put before "<" so it identifies as id -->
+       <p id="message"> </p> <!-- This will display any status messages -->
+       <div>
+           <!-- Different events have different formatings for ending tags -->
+           <input  style= "position: relative; top: 240px; left: 450px; border-radius: 25px;
+           padding: 20px;
+           width: 400px;
+           border: none;
+           text-align: center;"
+ class = 'random' type = "text" aria-label="current word" id = 'typed-value' /> <!-- the textbox for typing -->
+           <button style= "position: relative; opacity:0; top: 245px; left: 450px" class = "button" id = 'start'> Start </button>
+       </div>
+       <script src="script.js"></script>
+   </body>
 </html>
+
+
